@@ -1,5 +1,6 @@
-FROM java:8
+FROM openjdk:8u111-jdk-alpine
 
 #Install lame and tidy up
-RUN apt-get update &&  apt-get install -y lame && rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache lame
+#RUN apt-get update &&  apt-get install -y lame && rm -rf /var/lib/apt/lists/*
 
