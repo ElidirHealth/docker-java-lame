@@ -1,4 +1,4 @@
-FROM openjdk:8u181-jdk
+FROM openjdk:11-stretch
 
 #Install lame and tidy up
 #RUN apk add --no-cache lame
