@@ -1,3 +1,3 @@
 # README
 
-Docker image with Java 8 and Lame
+Docker image with Java 17 and Lame
